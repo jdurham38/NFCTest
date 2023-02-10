@@ -107,14 +107,14 @@ try {
                 ndef.close()
 
 
-                Toast.makeText(applicationContext, "Successfully Wroted!", Toast.LENGTH_SHORT)
+                Toast.makeText(applicationContext, "Successfully wrote to NFC!", Toast.LENGTH_SHORT)
                     .show()
             }
         }
     }
     else
     {
-        Toast.makeText(applicationContext, "Write on text box!", Toast.LENGTH_SHORT).show()
+        Toast.makeText(applicationContext, "Write in the text box!", Toast.LENGTH_SHORT).show()
     }
 }
 catch (Ex:Exception)

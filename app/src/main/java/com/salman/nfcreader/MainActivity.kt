@@ -147,7 +147,7 @@ class MainActivity : AppCompatActivity() {
                                 txtviewuserid.setText("USER ID: "+txtuserid.text.toString());
                                 Toast.makeText(
                                     applicationContext,
-                                    "Successfully Wroted!",
+                                    "Successfully wrote to NFC!",
                                     Toast.LENGTH_SHORT
                                 )
                                     .show()
@@ -164,13 +164,13 @@ class MainActivity : AppCompatActivity() {
                             txtviewuserid.setText("USER ID: " + inMessage.drop(3))
                         }
                         catch (ex:Exception){
-                            Toast.makeText(applicationContext, "User ID not writted!", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(applicationContext, "User ID was not written!", Toast.LENGTH_SHORT).show()
                         }
                     }
                 } catch (ex: Exception) {
                     Toast.makeText(
                         applicationContext,
-                        "There are no Machine and Shop information found!, please click write data to write those!",
+                        "No Machine and Shop information found!, please click here to write data!",
                         Toast.LENGTH_SHORT
                     ).show()
                 }
